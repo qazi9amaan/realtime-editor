@@ -1,0 +1,78 @@
+.mainWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.editorWrapper {
+  background: white;
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+.asideWrapper {
+  width: 260px;
+  flex-shrink: 0;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.asideMainContent {
+  flex-grow: 1;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* TODO:style overflow */
+
+.cardHeader h3 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.1em;
+  color: var(--white);
+  letter-spacing: 0.06em;
+}
+.cardHeader p {
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 0;
+  color: var(--primary);
+  letter-spacing: 0.1em;
+}
+
+.cardHeader {
+  padding-bottom: 1em;
+  border-bottom: 0.1rem solid var(--dark-100);
+}
+
+.ClientsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 1em;
+  height: 80%;
+  overflow-y: auto;
+}
+
+.clientHeader {
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.8em;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+}
+
+.asideFooter {
+  flex-shrink: 0;
+  flex-grow: 0;
+}

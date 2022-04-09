@@ -1,0 +1,30 @@
+.card {
+  background: var(--dark-100);
+  padding: 2em 2.8em;
+  width: 450px;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.5em 1em -0.1em rgba(0, 0, 0, 0.2);
+}
+.cardHeader {
+  padding-bottom: 0.4em;
+}
+.cardHeader h3 {
+  font-size: 2.6rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.1em;
+  color: var(--white);
+}
+.cardHeader p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: var(--primary);
+}
+
+.card main {
+  padding-top: 1.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
